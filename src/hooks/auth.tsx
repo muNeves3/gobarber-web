@@ -7,7 +7,7 @@ interface User {
   avatar_url: string;
   id: string;
   name: string;
-  // eslint-disable-next-line camelcase
+  email: string;
 }
 
 interface AuthState {
